@@ -1,0 +1,41 @@
+{
+  "name": "Get Staff By Zone",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A2: Get Staff By Zone",
+  "description": "Returns Array of Staff",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/GetStaffByZone",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Zone",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "Staff",
+      "type": "array"
+    }
+  ]
+}
