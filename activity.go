@@ -97,7 +97,7 @@ func RestCallGetStaffByZone(IP string, customerId string, uname string, pword st
 		zone = strconv.Itoa(zoneObj.ZoneID)
 	}
 
-	ZoneId, _ := strconv.Atoi(zone) // var checking if building is int Id, if not, set to -1
+	ZoneId, _ := strconv.Atoi(zone) // var checking if zone is int Id, if not, set to -1
 	if (ZoneId == 0){ZoneId = -1} 
 	for _, obj := range translatedData.List {
 
